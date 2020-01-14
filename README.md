@@ -1,6 +1,8 @@
 # car-reverse-image-search
 Reverse image search to determine car make and model from image.
 
+Blog post accompanying the code, found [here](https://wasdkhan.github.io/2020/01/12/building-car-recognition.html)
+
 ## Code Setup
 1. Clone this repository:
 ```
