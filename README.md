@@ -35,3 +35,8 @@ python server.py
 
 3. Visit localhost:8080 in a web browser and upload a picture or paste a url. 
 If everything is setup correctly, it should return the top 5 closest looking car images with makes and models. 
+
+## Useful Code and Resources
+
+1. VMMRdb for releasing [car image dataset](http://vmmrdb.cecsresearch.org/)
+2. Torch to PyTorch conversion [script](https://github.com/clcarwin/convert_torch_to_pytorch)
