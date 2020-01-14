@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<img src="{{imgpath}}" width="250"/>
+<h1>Top {{suggested_labels|length}} predictions:</h1>
+{%for i in range(0, suggested_labels|length)%}
+	<p>{{i + 1}}. {{suggested_labels[i]}}</p>
+	<img src="{{"static/VMMRdb/" + suggested_filenames[i]}}" width="200"/>
+{%endfor%}
+</html>
